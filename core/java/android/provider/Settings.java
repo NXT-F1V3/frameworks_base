@@ -2705,8 +2705,20 @@ public final class Settings {
         /**
          * show clear all recents button
          *  @hide
-         */
+	/*
         public static final String SHOW_CLEAR_ALL_RECENTS = "show_clear_all_recents";
+
+	/**
+         * Show search bar in recents
+         * @hide
+         */
+        public static final String RECENTS_SHOW_SEARCH_BAR = "recents_show_search_bar";
+
+        /**
+         * Action to perform when the app switch key is long-pressed. (Default is 0)
+         * (See KEY_HOME_LONG_PRESS_ACTION for valid values)
+         * @hide
+         */
 
         /**
          * location of the clear all rectents button
