@@ -2594,7 +2594,6 @@ public class PhoneStatusBar extends BaseStatusBar implements DemoMode,
             IPowerManager power = IPowerManager.Stub.asInterface(
                     ServiceManager.getService("power"));
             if (power != null) {
-<<<<<<< HEAD
                 if (mAutomaticBrightness) {
                     float adj = (value * 100) / (BRIGHTNESS_ADJ_RESOLUTION / 2f) - 1;
                     adj = Math.max(adj, -1);
